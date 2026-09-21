@@ -2,775 +2,1455 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Cravings Cafe Attapur — burgers, pizzas, wraps, pasta, shakes, desserts and more."
+    >
 
     <title>Cravings Cafe | Attapur, Hyderabad</title>
 
-    <meta name="description"
-          content="Cravings Cafe in Attapur, Hyderabad — burgers, pizza, wraps, pasta, shakes, desserts and great moments.">
-
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- =========================================================
-     NAVBAR
-========================================================= -->
+    <!-- =========================================================
+         NAVBAR
+    ========================================================== -->
 
-<header class="navbar" id="navbar">
+    <header class="navbar" id="navbar">
 
-    <div class="nav-container">
+        <div class="nav-container">
 
-        <a href="#home" class="logo">
-            <span>CRAVINGS</span>
-            <small>CAFE</small>
-        </a>
-
-        <nav class="nav-menu" id="navMenu">
-
-            <a href="#home">Home</a>
-            <a href="#menu">Menu</a>
-            <a href="#about">About</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-
-            <button class="nav-menu-btn" id="openMenu">
-                View Menu
-            </button>
-
-        </nav>
-
-        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
-            ☰
-        </button>
-
-    </div>
-
-</header>
-
-
-<!-- =========================================================
-     HERO
-========================================================= -->
-
-<section class="hero" id="home">
-
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-
-        <p class="hero-kicker">
-            ATTAPUR • HYDERABAD
-        </p>
-
-        <h1>
-            GOOD FOOD.<br>
-            <span>GREAT MOMENTS.</span>
-        </h1>
-
-        <p class="hero-description">
-            Fresh flavours, comfort food and refreshing drinks
-            made for memorable moments.
-        </p>
-
-        <div class="hero-buttons">
-
-            <button class="btn btn-primary" id="heroMenuButton">
-                Explore Menu
-            </button>
-
-            <a
-                href="https://www.google.com/maps/search/?api=1&query=Cravings+Cafe+Attapur+Hyderabad"
-                target="_blank"
-                rel="noopener"
-                class="btn btn-outline"
-            >
-                Find Us
+            <a href="#home" class="logo">
+                <span class="logo-main">CRAVINGS</span>
+                <span class="logo-sub">CAFE</span>
             </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                type="button"
+            >
+                ☰
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#home">Home</a>
+
+                <a href="#menu">Menu</a>
+
+                <a href="#about">About</a>
+
+                <a href="#gallery">Gallery</a>
+
+                <a href="#contact">Contact</a>
+
+                <a href="#menu" class="nav-button">
+                    View Menu
+                </a>
+
+            </nav>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- =========================================================
-     INTRO
-========================================================= -->
+    <!-- =========================================================
+         HERO
+    ========================================================== -->
 
-<section class="intro section">
+    <main>
 
-    <div class="container intro-content">
+        <section class="hero" id="home">
 
-        <p class="section-label">
-            WELCOME TO CRAVINGS
-        </p>
+            <div class="hero-overlay"></div>
 
-        <h2>
-            A place for your
-            <span>every craving.</span>
-        </h2>
+            <div class="hero-content">
 
-        <p>
-            From juicy burgers and loaded pizzas to refreshing
-            shakes, coffee and desserts — Cravings Cafe is made
-            for casual hangouts, family time and good food.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     MENU HIGHLIGHTS
-========================================================= -->
-
-<section class="menu-section section" id="menu">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div>
-                <p class="section-label">
-                    OUR FAVOURITES
+                <p class="hero-small">
+                    WELCOME TO
                 </p>
 
-                <h2>
-                    Something for<br>
-                    <span>every craving.</span>
-                </h2>
+                <h1>
+                    Cravings<br>
+                    <span>Cafe</span>
+                </h1>
+
+                <p class="hero-description">
+                    Good food. Great coffee. Better moments.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-button"
+                        id="heroMenuButton"
+                        type="button"
+                    >
+                        Explore Menu
+                    </button>
+
+                    <a
+                        href="#contact"
+                        class="secondary-button"
+                    >
+                        Find Us
+                    </a>
+
+                </div>
+
             </div>
 
+        </section>
+
+
+        <!-- =====================================================
+             INTRO
+        ====================================================== -->
+
+        <section class="intro-section">
+
+            <div class="section-container intro-container">
+
+                <div class="section-label">
+                    CRAVINGS CAFE
+                </div>
+
+                <h2>
+                    Your Everyday
+                    <span>Food Destination</span>
+                </h2>
+
+                <p>
+                    From delicious burgers and pizzas to creamy shakes,
+                    refreshing beverages and satisfying desserts,
+                    Cravings Cafe brings together great food and a
+                    comfortable atmosphere in the heart of Attapur.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MENU HIGHLIGHTS
+        ====================================================== -->
+
+        <section class="menu-section" id="menu">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-label">
+                            WHAT WE SERVE
+                        </p>
+
+                        <h2>
+                            Something For
+                            <span>Every Craving</span>
+                        </h2>
+                    </div>
+
+                    <button
+                        class="outline-button"
+                        id="openMenuBottom"
+                        type="button"
+                    >
+                        View Full Menu
+                    </button>
+
+                </div>
+
+
+                <div class="menu-grid">
+
+                    <!-- Coffee -->
+
+                    <article class="menu-card">
+
+                        <div
+                            class="menu-card-image"
+                            style="
+                            background-image:
+                            url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=85');
+                            "
+                        ></div>
+
+                        <div class="menu-card-content">
+
+                            <p class="card-number">
+                                01
+                            </p>
+
+                            <h3>
+                                Coffee & Beverages
+                            </h3>
+
+                            <p>
+                                Hot coffee, cold coffee, shakes,
+                                refreshing drinks and more.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="text-button"
+                                data-open-menu="beverages"
+                            >
+                                Explore →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Burgers -->
+
+                    <article class="menu-card">
+
+                        <div
+                            class="menu-card-image"
+                            style="
+                            background-image:
+                            url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85');
+                            "
+                        ></div>
+
+                        <div class="menu-card-content">
+
+                            <p class="card-number">
+                                02
+                            </p>
+
+                            <h3>
+                                Burgers & Wraps
+                            </h3>
+
+                            <p>
+                                Juicy burgers, cheesy sandwiches,
+                                wraps and delicious chicken options.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="text-button"
+                                data-open-menu="burgers"
+                            >
+                                Explore →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Pizza -->
+
+                    <article class="menu-card">
+
+                        <div
+                            class="menu-card-image"
+                            style="
+                            background-image:
+                            url('https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1000&q=85');
+                            "
+                        ></div>
+
+                        <div class="menu-card-content">
+
+                            <p class="card-number">
+                                03
+                            </p>
+
+                            <h3>
+                                Pizza & Pasta
+                            </h3>
+
+                            <p>
+                                Classic pizzas, cheesy pasta and
+                                comforting Italian-inspired dishes.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="text-button"
+                                data-open-menu="pizza"
+                            >
+                                Explore →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Shakes -->
+
+                    <article class="menu-card">
+
+                        <div
+                            class="menu-card-image"
+                            style="
+                            background-image:
+                            url('https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1000&q=85');
+                            "
+                        ></div>
+
+                        <div class="menu-card-content">
+
+                            <p class="card-number">
+                                04
+                            </p>
+
+                            <h3>
+                                Shakes & Desserts
+                            </h3>
+
+                            <p>
+                                Thickshakes, cheesecakes and sweet
+                                treats to finish your meal.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="text-button"
+                                data-open-menu="desserts"
+                            >
+                                Explore →
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MENU VISUAL PREVIEW
+        ====================================================== -->
+
+        <section class="visual-menu-section">
+
+            <div class="section-container">
+
+                <div class="visual-menu-grid">
+
+                    <div class="visual-menu-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85"
+                            alt="Burger"
+                            loading="lazy"
+                        >
+
+                        <div class="visual-menu-overlay">
+
+                            <span>
+                                SIGNATURE
+                            </span>
+
+                            <h3>
+                                Burgers
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="visual-menu-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1000&q=85"
+                            alt="Pizza"
+                            loading="lazy"
+                        >
+
+                        <div class="visual-menu-overlay">
+
+                            <span>
+                                FAVORITE
+                            </span>
+
+                            <h3>
+                                Pizza
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="visual-menu-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1000&q=85"
+                            alt="Wrap"
+                            loading="lazy"
+                        >
+
+                        <div class="visual-menu-overlay">
+
+                            <span>
+                                FRESH
+                            </span>
+
+                            <h3>
+                                Wraps
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="visual-menu-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=1000&q=85"
+                            alt="Cheesecake"
+                            loading="lazy"
+                        >
+
+                        <div class="visual-menu-overlay">
+
+                            <span>
+                                SWEET
+                            </span>
+
+                            <h3>
+                                Desserts
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
+
+        <section class="about-section" id="about">
+
+            <div class="section-container about-grid">
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=1200&q=85"
+                        alt="Cafe interior"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        ABOUT US
+                    </p>
+
+                    <h2>
+                        A Place For
+                        <span>Good Moments</span>
+                    </h2>
+
+                    <p>
+                        Cravings Cafe is a casual food destination
+                        in Attapur, Hyderabad, serving a wide range
+                        of burgers, pizzas, wraps, pasta, beverages,
+                        desserts and more.
+                    </p>
+
+                    <p>
+                        Whether you're meeting friends, grabbing a
+                        quick bite or simply relaxing with a coffee,
+                        Cravings Cafe is designed to make every visit
+                        enjoyable.
+                    </p>
+
+                    <a
+                        href="#contact"
+                        class="primary-button"
+                    >
+                        Visit Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FEATURES
+        ====================================================== -->
+
+        <section class="features-section">
+
+            <div class="section-container">
+
+                <div class="features-grid">
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            ★
+                        </div>
+
+                        <h3>
+                            Fresh Food
+                        </h3>
+
+                        <p>
+                            Delicious food prepared for every craving.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            ☕
+                        </div>
+
+                        <h3>
+                            Great Coffee
+                        </h3>
+
+                        <p>
+                            Enjoy hot and cold beverages with your meal.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            ♥
+                        </div>
+
+                        <h3>
+                            Comfortable Space
+                        </h3>
+
+                        <p>
+                            A relaxed place to spend time with friends.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <div class="feature-icon">
+                            ✦
+                        </div>
+
+                        <h3>
+                            Outdoor Seating
+                        </h3>
+
+                        <p>
+                            Enjoy your food in a comfortable outdoor setting.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             GALLERY
+        ====================================================== -->
+
+        <section class="gallery-section" id="gallery">
+
+            <div class="section-container">
+
+                <div class="section-heading centered">
+
+                    <div>
+
+                        <p class="section-label">
+                            OUR SPACE
+                        </p>
+
+                        <h2>
+                            Take A Look
+                            <span>Inside</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-large">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85"
+                            alt="Cafe interior"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=85"
+                            alt="Cafe seating"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=85"
+                            alt="Restaurant interior"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+
+                    <div class="gallery-item">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85"
+                            alt="Dessert"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MENU CATEGORIES
+        ====================================================== -->
+
+        <section class="categories-section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="section-label">
+                            EXPLORE
+                        </p>
+
+                        <h2>
+                            Our Menu
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="categories-grid">
+
+                    <button
+                        class="category-card"
+                        type="button"
+                        data-open-menu="burgers"
+                    >
+                        <span>
+                            01
+                        </span>
+
+                        <strong>
+                            Burgers & Sandwiches
+                        </strong>
+
+                        <small>
+                            Chicken • Cheese • Zinger
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="category-card"
+                        type="button"
+                        data-open-menu="pizza"
+                    >
+                        <span>
+                            02
+                        </span>
+
+                        <strong>
+                            Pizza & Pasta
+                        </strong>
+
+                        <small>
+                            Classic • Cheese • Chicken
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="category-card"
+                        type="button"
+                        data-open-menu="snacks"
+                    >
+                        <span>
+                            03
+                        </span>
+
+                        <strong>
+                            Snacks & Sides
+                        </strong>
+
+                        <small>
+                            Nuggets • Momos • Garlic Bread
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="category-card"
+                        type="button"
+                        data-open-menu="beverages"
+                    >
+                        <span>
+                            04
+                        </span>
+
+                        <strong>
+                            Beverages
+                        </strong>
+
+                        <small>
+                            Coffee • Shakes • Drinks
+                        </small>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="section-container contact-grid">
+
+                <div class="contact-content">
+
+                    <p class="section-label">
+                        FIND US
+                    </p>
+
+                    <h2>
+                        Come Visit
+                        <span>Cravings Cafe</span>
+                    </h2>
+
+                    <p>
+                        Drop by for your favorite food, coffee,
+                        shakes and good times.
+                    </p>
+
+
+                    <div class="contact-details">
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                📍
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Address
+                                </strong>
+
+                                <p>
+                                    4-3-142/5, Attapur,
+                                    Kantha Reddy Nagar,
+                                    Hyderabad, Telangana 500048
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <div class="contact-icon">
+                                ☎
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Phone
+                                </strong>
+
+                                <p>
+                                    +91 90001 46910
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-buttons">
+
+                        <a
+                            href="tel:+919000146910"
+                            class="primary-button"
+                        >
+                            Call Now
+                        </a>
+
+                        <a
+                            href="https://wa.me/919000146910"
+                            target="_blank"
+                            rel="noopener"
+                            class="outline-button"
+                        >
+                            WhatsApp
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="map-card">
+
+                    <div class="map-placeholder">
+
+                        <div class="map-icon">
+                            📍
+                        </div>
+
+                        <h3>
+                            Cravings Cafe
+                        </h3>
+
+                        <p>
+                            Attapur, Hyderabad
+                        </p>
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Cravings+Cafe+Attapur+Hyderabad"
+                            target="_blank"
+                            rel="noopener"
+                            class="primary-button"
+                        >
+                            Open Google Maps
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer class="footer">
+
+        <div class="section-container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-main">CRAVINGS</span>
+                    <span class="logo-sub">CAFE</span>
+                </a>
+
+                <p>
+                    Good food. Great coffee. Better moments.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#menu">
+                    Menu
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#gallery">
+                    Gallery
+                </a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Contact
+                </h4>
+
+                <a href="#contact">
+                    Attapur, Hyderabad
+                </a>
+
+                <a href="tel:+919000146910">
+                    +91 90001 46910
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
             <p>
-                Explore some of the flavours guests come back for.
+                © <span id="year"></span> Cravings Cafe.
+                All rights reserved.
             </p>
 
         </div>
 
+    </footer>
 
-        <div class="menu-grid">
 
-            <!-- COFFEE -->
+    <!-- =========================================================
+         FULL MENU MODAL
+    ========================================================== -->
 
-            <article class="menu-card">
+    <div
+        class="menu-modal"
+        id="menuModal"
+        aria-hidden="true"
+    >
 
-                <div
-                    class="menu-image"
-                    style="
-                    background-image:
-                    url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=90');
-                    "
-                ></div>
+        <div class="menu-modal-overlay" id="menuModalOverlay"></div>
 
-                <div class="menu-card-content">
 
-                    <span>Beverages</span>
+        <div class="menu-modal-content">
 
-                    <h3>
-                        Coffee & Refreshments
-                    </h3>
+            <button
+                class="menu-modal-close"
+                id="closeMenu"
+                type="button"
+                aria-label="Close menu"
+            >
+                ×
+            </button>
 
-                    <p>
-                        Hot coffee, cold coffee and refreshing drinks.
-                    </p>
+
+            <div class="menu-modal-header">
+
+                <p class="section-label">
+                    CRAVINGS CAFE
+                </p>
+
+                <h2>
+                    Full Menu
+                </h2>
+
+                <p>
+                    Popular menu selections.
+                </p>
+
+            </div>
+
+
+            <!-- BURGERS -->
+
+            <div class="menu-modal-category">
+
+                <h3>
+                    Burgers & Sandwiches
+                </h3>
+
+                <div class="menu-list">
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Zinger Burger
+                            </strong>
+
+                            <small>
+                                Crispy chicken burger
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹199
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Double Chicken Patty Burger
+                            </strong>
+
+                            <small>
+                                Double chicken patty
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹249
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Tikka Sandwich
+                            </strong>
+
+                            <small>
+                                Chicken tikka sandwich
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹179
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Zinger Sandwich
+                            </strong>
+
+                            <small>
+                                Crispy chicken sandwich
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹179
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                BBQ Chicken Wrap
+                            </strong>
+
+                            <small>
+                                BBQ chicken wrap
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹189
+                        </span>
+
+                    </div>
 
                 </div>
 
-            </article>
-
-
-            <!-- BURGER -->
-
-            <article class="menu-card">
-
-                <div
-                    class="menu-image"
-                    style="
-                    background-image:
-                    url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1400&q=90');
-                    "
-                ></div>
-
-                <div class="menu-card-content">
-
-                    <span>Burgers</span>
-
-                    <h3>
-                        Loaded Burgers
-                    </h3>
-
-                    <p>
-                        Juicy chicken and cheesy burgers packed with flavour.
-                    </p>
-
-                </div>
-
-            </article>
+            </div>
 
 
             <!-- PIZZA -->
 
-            <article class="menu-card">
-
-                <div
-                    class="menu-image"
-                    style="
-                    background-image:
-                    url('https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1400&q=90');
-                    "
-                ></div>
-
-                <div class="menu-card-content">
-
-                    <span>Pizza</span>
-
-                    <h3>
-                        Freshly Baked Pizza
-                    </h3>
-
-                    <p>
-                        Cheesy classics and loaded chicken pizzas.
-                    </p>
-
-                </div>
-
-            </article>
-
-
-            <!-- SHAKES -->
-
-            <article class="menu-card">
-
-                <div
-                    class="menu-image"
-                    style="
-                    background-image:
-                    url('https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1400&q=90');
-                    "
-                ></div>
-
-                <div class="menu-card-content">
-
-                    <span>Shakes & Desserts</span>
-
-                    <h3>
-                        Sweet Cravings
-                    </h3>
-
-                    <p>
-                        Thickshakes, cold drinks and delicious desserts.
-                    </p>
-
-                </div>
-
-            </article>
-
-        </div>
-
-
-        <!-- VISUAL MENU -->
-
-        <div class="visual-menu">
-
-            <div class="visual-menu-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=90"
-                    alt="Chicken Burger"
-                    loading="lazy"
-                >
-
-                <div>
-                    <span>BURGERS</span>
-                    <h3>Chicken Zinger Burger</h3>
-                </div>
-
-            </div>
-
-
-            <div class="visual-menu-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1000&q=90"
-                    alt="Chicken Pizza"
-                    loading="lazy"
-                >
-
-                <div>
-                    <span>PIZZA</span>
-                    <h3>BBQ Chicken Pizza</h3>
-                </div>
-
-            </div>
-
-
-            <div class="visual-menu-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1000&q=90"
-                    alt="Chicken Wrap"
-                    loading="lazy"
-                >
-
-                <div>
-                    <span>WRAPS</span>
-                    <h3>BBQ Chicken Wrap</h3>
-                </div>
-
-            </div>
-
-
-            <div class="visual-menu-card">
-
-                <img
-                    src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=1000&q=90"
-                    alt="Cheesecake"
-                    loading="lazy"
-                >
-
-                <div>
-                    <span>DESSERT</span>
-                    <h3>Blueberry Cheesecake</h3>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="center-button">
-
-            <button class="btn btn-dark" id="openMenuBottom">
-                View Full Menu
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     ABOUT
-========================================================= -->
-
-<section class="about section" id="about">
-
-    <div class="container about-grid">
-
-        <div
-            class="about-image"
-            style="
-            background-image:
-            url('https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=1500&q=90');
-            "
-        ></div>
-
-
-        <div class="about-content">
-
-            <p class="section-label">
-                ABOUT CRAVINGS
-            </p>
-
-            <h2>
-                Good food tastes
-                better together.
-            </h2>
-
-            <p>
-                Cravings Cafe is a casual cafe destination in
-                Attapur, Hyderabad, serving a mix of comfort
-                food, beverages, desserts and quick bites.
-            </p>
-
-            <p>
-                Whether you're meeting friends, grabbing a quick
-                bite or simply relaxing with a drink, there's
-                always something to crave.
-            </p>
-
-
-            <div class="about-highlight">
-
-                <div class="highlight-icon">
-                    ✦
-                </div>
-
-                <div>
-                    <strong>
-                        Outdoor Seating
-                    </strong>
-
-                    <p>
-                        Relax, chat and enjoy your food outdoors.
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     FEATURES
-========================================================= -->
-
-<section class="features section">
-
-    <div class="container">
-
-        <div class="features-grid">
-
-            <div class="feature">
-
-                <div class="feature-number">
-                    01
-                </div>
+            <div class="menu-modal-category">
 
                 <h3>
-                    Fresh Drinks
+                    Pizza & Pasta
                 </h3>
 
-                <p>
-                    Coffee, shakes and refreshing beverages.
-                </p>
+                <div class="menu-list">
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Margherita Pizza
+                            </strong>
+
+                            <small>
+                                Classic cheese pizza
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹249
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                4 Cheese Pizza
+                            </strong>
+
+                            <small>
+                                Four cheese pizza
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹349
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Paneer Tikka Pizza
+                            </strong>
+
+                            <small>
+                                Paneer tikka topping
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹329
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                BBQ Chicken Pizza
+                            </strong>
+
+                            <small>
+                                BBQ chicken topping
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹349
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Alfredo Pasta
+                            </strong>
+
+                            <small>
+                                Creamy chicken pasta
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹299
+                        </span>
+
+                    </div>
+
+                </div>
 
             </div>
 
 
-            <div class="feature">
+            <!-- SNACKS -->
 
-                <div class="feature-number">
-                    02
-                </div>
+            <div class="menu-modal-category">
 
                 <h3>
-                    Comfort Food
+                    Snacks & Sides
                 </h3>
 
-                <p>
-                    Burgers, pizzas, wraps, pasta and more.
-                </p>
+                <div class="menu-list">
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Cheese Balls
+                            </strong>
+
+                            <small>
+                                Crispy cheesy chicken bites
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹169
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Fried Momos
+                            </strong>
+
+                            <small>
+                                Fried chicken momos
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹159
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Chicken Nuggets
+                            </strong>
+
+                            <small>
+                                Crispy chicken nuggets
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹149
+                        </span>
+
+                    </div>
+
+
+                    <div class="menu-list-item">
+
+                        <div>
+                            <strong>
+                                Cheesy Garlic Bread
+                            </strong>
+
+                            <small>
+                                Garlic bread with cheese
+                            </small>
+                        </div>
+
+                        <span>
+                            ₹149
+                        </span>
+
+                    </div>
+
+                </div>
 
             </div>
 
 
-            <div class="feature">
+            <!-- BEVERAGES -->
 
-                <div class="feature-number">
-                    03
-                </div>
+            <div class="menu-modal-category">
 
                 <h3>
-                    Outdoor Seating
+                    Beverages & Desserts
                 </h3>
 
-                <p>
-                    A comfortable outdoor space for relaxed moments.
-                </p>
+                <div class="menu-list">
 
-            </div>
+                    <div class="menu-list-item">
 
+                        <div>
+                            <strong>
+                                Cold Coffee
+                            </strong>
 
-            <div class="feature">
+                            <small>
+                                Chilled creamy coffee
+                            </small>
+                        </div>
 
-                <div class="feature-number">
-                    04
-                </div>
+                        <span>
+                            ₹129
+                        </span>
 
-                <h3>
-                    Great Moments
-                </h3>
+                    </div>
 
-                <p>
-                    Come hungry. Leave happy.
-                </p>
 
-            </div>
+                    <div class="menu-list-item">
 
-        </div>
+                        <div>
+                            <strong>
+                                Thickshake
+                            </strong>
 
-    </div>
+                            <small>
+                                Rich and creamy shake
+                            </small>
+                        </div>
 
-</section>
+                        <span>
+                            ₹169
+                        </span>
 
+                    </div>
 
-<!-- =========================================================
-     GALLERY
-========================================================= -->
 
-<section class="gallery section" id="gallery">
+                    <div class="menu-list-item">
 
-    <div class="container">
+                        <div>
+                            <strong>
+                                Hot Chocolate
+                            </strong>
 
-        <div class="section-heading">
+                            <small>
+                                Warm chocolate beverage
+                            </small>
+                        </div>
 
-            <div>
+                        <span>
+                            ₹149
+                        </span>
 
-                <p class="section-label">
-                    OUR SPACE
-                </p>
+                    </div>
 
-                <h2>
-                    Eat. Relax.
-                    <span>Enjoy.</span>
-                </h2>
 
-            </div>
+                    <div class="menu-list-item">
 
-            <p>
-                A casual place for food, conversations and good moments.
-            </p>
+                        <div>
+                            <strong>
+                                Blueberry Cheesecake
+                            </strong>
 
-        </div>
+                            <small>
+                                Creamy cheesecake dessert
+                            </small>
+                        </div>
 
+                        <span>
+                            ₹179
+                        </span>
 
-        <div class="gallery-grid">
-
-            <div
-                class="gallery-item gallery-large"
-                style="
-                background-image:
-                url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=90');
-                "
-            ></div>
-
-
-            <div
-                class="gallery-item"
-                style="
-                background-image:
-                url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=90');
-                "
-            ></div>
-
-
-            <div
-                class="gallery-item"
-                style="
-                background-image:
-                url('https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=90');
-                "
-            ></div>
-
-
-            <div
-                class="gallery-item"
-                style="
-                background-image:
-                url('https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1200&q=90');
-                "
-            ></div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     MENU CATEGORIES
-========================================================= -->
-
-<section class="categories section">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div>
-
-                <p class="section-label">
-                    EXPLORE
-                </p>
-
-                <h2>
-                    Our Menu
-                    <span>Categories</span>
-                </h2>
-
-            </div>
-
-        </div>
-
-
-        <div class="category-grid">
-
-            <div class="category">
-                <span>01</span>
-                <h3>Beverages</h3>
-            </div>
-
-            <div class="category">
-                <span>02</span>
-                <h3>Pizza</h3>
-            </div>
-
-            <div class="category">
-                <span>03</span>
-                <h3>Starters</h3>
-            </div>
-
-            <div class="category">
-                <span>04</span>
-                <h3>Wraps & Sandwiches</h3>
-            </div>
-
-            <div class="category">
-                <span>05</span>
-                <h3>Burgers</h3>
-            </div>
-
-            <div class="category">
-                <span>06</span>
-                <h3>Pasta</h3>
-            </div>
-
-            <div class="category">
-                <span>07</span>
-                <h3>Garlic Bread</h3>
-            </div>
-
-            <div class="category">
-                <span>08</span>
-                <h3>Desserts</h3>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     CONTACT
-========================================================= -->
-
-<section class="contact section" id="contact">
-
-    <div class="container contact-grid">
-
-        <div class="contact-content">
-
-            <p class="section-label">
-                VISIT US
-            </p>
-
-            <h2>
-                Your next craving
-                starts here.
-            </h2>
-
-            <p>
-                Come over for a meal, coffee, shake or a quick bite
-                with friends and family.
-            </p>
-
-
-            <div class="contact-details">
-
-                <div class="contact-item">
-
-                    <span>ADDRESS</span>
-
-                    <p>
-                        4-3-142/5, Attapur,<br>
-                        Kantha Reddy Nagar,<br>
-                        Hyderabad, Telangana 500048
-                    </p>
-
-                </div>
-
-
-                <div class="contact-item">
-
-                    <span>PHONE</span>
-
-                    <p>
-                        +91 90001 46910
-                    </p>
-
-                </div>
-
-
-                <div class="contact-item">
-
-                    <span>SPACE</span>
-
-                    <p>
-                        Indoor • Outdoor • Takeaway
-                    </p>
+                    </div>
 
                 </div>
 
             </div>
 
 
-            <div class="contact-buttons">
+            <div class="menu-demo-note">
 
-                <a
-                    href="tel:+919000146910"
-                    class="btn btn-dark"
-                >
-                    Call Now
-                </a>
+                <strong>
+                    Menu note:
+                </strong>
 
-                <a
-                    href="https://wa.me/919000146910"
-                    target="_blank"
-                    rel="noopener"
-                    class="btn btn-outline-dark"
-                >
-                    WhatsApp
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="contact-map">
-
-            <div class="map-card">
-
-                <div class="map-icon">
-                    📍
-                </div>
-
-                <h3>
-                    Cravings Cafe
-                </h3>
-
-                <p>
-                    Attapur, Hyderabad
-                </p>
-
-                <a
-                    href="https://www.google.com/maps/search/?api=1&query=Cravings+Cafe+Attapur+Hyderabad"
-                    target="_blank"
-                    rel="noopener"
-                    class="map-link"
-                >
-                    Open in Google Maps →
-                </a>
+                Prices shown are demo/public-listing style prices
+                and should be replaced with the cafe owner's
+                confirmed current prices before the website goes live
+                for the business.
 
             </div>
 
@@ -778,60 +1458,154 @@
 
     </div>
 
-</section>
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
+    <script src="script.js"></script>
 
 
-<!-- =========================================================
-     FOOTER
-========================================================= -->
+    <script>
 
-<footer class="footer">
+        document.addEventListener("DOMContentLoaded", function () {
 
-    <div class="container footer-grid">
+            const modal = document.getElementById("menuModal");
 
-        <div>
+            const closeButton =
+                document.getElementById("closeMenu");
 
-            <a href="#home" class="logo footer-logo">
+            const overlay =
+                document.getElementById("menuModalOverlay");
 
-                <span>CRAVINGS</span>
-                <small>CAFE</small>
+            const heroButton =
+                document.getElementById("heroMenuButton");
 
-            </a>
-
-            <p>
-                Good food. Great moments.
-            </p>
-
-        </div>
+            const bottomButton =
+                document.getElementById("openMenuBottom");
 
 
-        <div class="footer-links">
+            function openMenuModal() {
 
-            <a href="#home">Home</a>
-            <a href="#menu">Menu</a>
-            <a href="#about">About</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
+                if (!modal) return;
 
-        </div>
+                modal.classList.add("active");
 
-    </div>
+                modal.setAttribute(
+                    "aria-hidden",
+                    "false"
+                );
 
+                document.body.classList.add(
+                    "modal-open"
+                );
 
-    <div class="footer-bottom">
-
-        <p>
-            © <span id="year"></span> Cravings Cafe.
-            All rights reserved.
-        </p>
-
-    </div>
-
-</footer>
+            }
 
 
-<!-- =========================================================
-     FULL MENU MODAL
-========================================================= -->
+            function closeMenuModal() {
 
-<div class="menu-modal" id
+                if (!modal) return;
+
+                modal.classList.remove("active");
+
+                modal.setAttribute(
+                    "aria-hidden",
+                    "true"
+                );
+
+                document.body.classList.remove(
+                    "modal-open"
+                );
+
+            }
+
+
+            if (heroButton) {
+
+                heroButton.addEventListener(
+                    "click",
+                    openMenuModal
+                );
+
+            }
+
+
+            if (bottomButton) {
+
+                bottomButton.addEventListener(
+                    "click",
+                    openMenuModal
+                );
+
+            }
+
+
+            if (closeButton) {
+
+                closeButton.addEventListener(
+                    "click",
+                    closeMenuModal
+                );
+
+            }
+
+
+            if (overlay) {
+
+                overlay.addEventListener(
+                    "click",
+                    closeMenuModal
+                );
+
+            }
+
+
+            document
+                .querySelectorAll("[data-open-menu]")
+                .forEach(function (button) {
+
+                    button.addEventListener(
+                        "click",
+                        openMenuModal
+                    );
+
+                });
+
+
+            document.addEventListener(
+                "keydown",
+                function (event) {
+
+                    if (
+                        event.key === "Escape" &&
+                        modal &&
+                        modal.classList.contains("active")
+                    ) {
+
+                        closeMenuModal();
+
+                    }
+
+                }
+            );
+
+
+            /* Footer year */
+
+            const yearElement =
+                document.getElementById("year");
+
+            if (yearElement) {
+
+                yearElement.textContent =
+                    new Date().getFullYear();
+
+            }
+
+        });
+
+    </script>
+
+</body>
+</html>
